@@ -1,0 +1,30 @@
+*{
+    background-color: rgb(7, 7, 54);
+    color: aliceblue;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+}
+.image{
+    border-radius: 50px;
+}
+.hero{
+    font-size:4rem;
+}
+.text{
+    font-style: italic;
+    font-size:20px ;
+
+}
+@media only screen and (max-width:767px) {
+    body{
+        flex-direction: column;
+        
+
+    }
+    .sec{ padding-top: 50px;}
+    
+}
